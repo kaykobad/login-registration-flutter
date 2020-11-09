@@ -13,8 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Login Registration',
       theme: ThemeData(
-        primarySwatch: ThemeColor.PrimaryDark,
+        primarySwatch: Colors.deepOrange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        hintColor: ThemeColor.PrimaryLight,
+        primaryColor: ThemeColor.PrimaryDark,
+        fontFamily: "Roboto",
+        canvasColor: Colors.transparent
       ),
       home: WelcomePage(),
     );
