@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_registration_flutter/constants/colors.dart';
-import 'package:login_registration_flutter/welcome/welcome_page.dart';
+import 'package:login_registration_flutter/login_registration/welcome_page.dart';
 
 void main() {
   runApp(MyApp());
